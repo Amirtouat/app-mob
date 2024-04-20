@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class CounterScreen extends StatelessWidget {
@@ -15,13 +16,13 @@ class CounterScreen extends StatelessWidget {
               'Compteur:',
               style: TextStyle(fontSize: 24.0),
             ),
-             ElevatedButton(
+            ElevatedButton(
               onPressed: () {
-                // Ajoutez ici la logique de connexion
+                FirebaseAuth.instance;
               },
               child: Text('Suivant'),
-            // Ajoutez ici votre logique de compteur
-             ),
+              // Ajoutez ici votre logique de compteur
+            ),
           ],
         ),
       ),
