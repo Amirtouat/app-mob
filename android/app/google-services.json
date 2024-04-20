@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "17341629808",
+    "project_id": "gestion-de-suivi",
+    "storage_bucket": "gestion-de-suivi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17341629808:android:9314396dd357a6da02bbb5",
+        "android_client_info": {
+          "package_name": "com.example.gestion_suivi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdp-7wo1-GkKozj-ujNzI7TTVtXr6pnO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
