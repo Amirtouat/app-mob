@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => LoginScreen(),
         '/counter': (context) => CounterScreen(),
-        '/display': (context) => DisplayScreen(),
+        '/display': (context) => DisplayScreen('ancienIndex , nouveauIndex'),
       },
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
